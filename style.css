@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url(https://cdn.pixabay.com/photo/2019/07/09/13/04/bomb-4326831_960_720.png);
+    background-repeat:repeat-y;
+    background-color:rgb(229, 225, 225);
+}
+
+#bg {
+    position: absolute;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    top:  50%;
+    left: 50%;
+    width: 90vw;
+    height: 25vw;
+    max-width: 800px;
+    padding: 40px 20px;
+    border-radius: 3px;
+    font-family: sans-serif;
+    font-size: 3.5vmin;
+    letter-spacing: 1.5px;
+    line-height: 3;
+    color: rgb(24, 1, 1);
+    text-align: center;
+    box-shadow: 0 20px 50px rgba(5, 26, 50, 0.18);  
+}
+
+button {   
+    position: absolute;
+    background-color: white;
+    transform: translate(-50%, -50%);
+    top:  10%;
+    left: 50%;
+    font-family: sans-serif;
+    letter-spacing: 1.5px;
+    text-align: center;
+    display: flex;
+    background-color: rgb(83, 2, 110);
+    padding: 10px;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    border: 1px solid rgb(178, 178, 178);
+}
+
+button:hover {
+    background-color: rgb(2, 150, 2);
+}
+
+#countdown {
+    font-family: sans-serif;
+    font-size: 20px;
+     margin-top: 15vh;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
