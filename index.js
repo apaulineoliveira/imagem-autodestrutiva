@@ -16,7 +16,7 @@ function gerarImagem() {
       time--;
     }
 
-    document.getElementById('bg').style.background="url(https://cdn.pixabay.com/photo/2017/03/29/15/18/tianjin-2185510_960_720.jpg)";   
+    document.getElementById('bg').style.background="url(https://cdn.pixabay.com/photo/2019/01/03/09/43/bomb-3910551_960_720.png)";   
 }
 
 setTimeout(function() { 
