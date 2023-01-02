@@ -6,7 +6,7 @@
 body {
     background-image: url(https://cdn.pixabay.com/photo/2019/07/09/13/04/bomb-4326831_960_720.png);
     background-repeat:repeat-y;
-    background-color:rgb(229, 225, 225);
+    background-color:rgb(248, 245, 245);
 }
 
 #bg {
@@ -15,8 +15,8 @@ body {
     transform: translate(-50%, -50%);
     top:  50%;
     left: 50%;
-    width: 90vw;
-    height: 25vw;
+    width: 30vw;
+    height: 23vw;
     max-width: 800px;
     padding: 40px 20px;
     border-radius: 3px;
